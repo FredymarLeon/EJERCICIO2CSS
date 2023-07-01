@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-items: center;
+    background-color: rgb(19, 1, 1);
+    width: 100%;
+    height: 120px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-inline-start: 10px;
+    line-height: 28px;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+.menu a:hover{
+    border-radius: 2px;
+    border: 2px solid rgb(32, 101, 240);
+    background-color:  rgb(32, 101, 240);
+   
+}
+
+.logo-imagem{
+    height: 130px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.img1 img{
+    height: 400px;
+    width: 100%;
+    }
+
+.conj-article{
+    height: 600px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conj-article-item{
+    padding: 16px
+}
+
+h2{
+    font-size: 25px;
+}
+
+/*car*/
+.mate-extra{
+    height: 800px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    background-color: rgb(32, 2, 2);
+    color: white;
+    padding-top: 20px;
+}
+
+.mate-extra figure1{
+font-size: 20px;
+}
+.fig1-text{
+    display: flex;
+    justify-content: right;
+}
+
+.conteudo{
+    height: 500px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(20, 0, 0);
+    color: rgb(73, 64, 64);
+    padding-top: 20px;
+    text-decoration-color: rgb(24, 1, 1);
+}
+
+.conteudo-article{
+    width: 50%;
+    justify-content: space-between;
+}
+.conteudo-article a{
+    color: white;
+}
+
+.conteudo-article-titulo{
+    font-size: 25px;
+}
+
+.conteudo-link > a{
+    color: white;
+}
+
+.conteudo-link a{
+    display: block;
+}
+
+footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-items: center;
+    background-color: rgb(8, 0, 0);
+    list-style: none;
+}
+
+.footer > a{
+    text-decoration-color:rgb(24, 1, 1);
+    color: rgb(20, 2, 2);
+}
